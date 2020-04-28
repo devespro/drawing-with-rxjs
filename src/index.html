@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Drawing with RxJS</title>
+</head>
+<body>
+
+<div class="container">
+    <h3>RxJs Drawing</h3>
+    <div id="creation">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3 margin-top">
+                <div class="input-field">
+                    <input type="color" id="colorSelector"/>
+                </div>
+            </div>
+            <div class="col s3 margin-top">
+                <label for="lineWeight">Select a line weight</label>
+                <div class="input-field">
+                    <input type="range" id="lineWeight" min="1" max="10">
+                    <span id="lineWeightValue"></span>
+                </div>
+            </div>
+            <div class="col s6 right-align">
+                <a class="btn right left-margin" id="clear">Clear</a>
+                <a class="btn right" id="save" href="#">Save image</a></div>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+</html>

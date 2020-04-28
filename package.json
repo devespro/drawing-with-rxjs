@@ -1,0 +1,39 @@
+{
+  "name": "drawing-with-rxjs",
+  "version": "1.0.0",
+  "description": "This project shows the mouse drawing functionality inside a canvas with rxjs library",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devespro/drawing-with-rxjs.git"
+  },
+  "keywords": [
+    "rxjs",
+    "canvas",
+    "js",
+    "html",
+    "materialize",
+    "css"
+  ],
+  "author": "Esien Novruzov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devespro/drawing-with-rxjs/issues"
+  },
+  "homepage": "https://github.com/devespro/drawing-with-rxjs#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "rxjs": "^6.5.5"
+  }
+}
